@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+header{
+    background-color: rgb(132, 14, 14);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.quem-section{
+    padding: 3rem;
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.texto-quem{
+    flex: 2;
+}
+.foto-mae{
+    width: 30%;
+    max-width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+.class-receitas{
+    font-family: ' Arial';
+    font-size: larger;
+}
